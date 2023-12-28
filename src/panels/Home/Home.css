@@ -1,0 +1,55 @@
+.Home--container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Home--content {
+    margin: 0 auto 0 auto;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+
+.Home--content .AboutCard--container {
+    margin-left: 150px;
+}
+
+
+@media screen and (max-width: 970px){
+    .Home--content .AboutCard--container {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .Home--content .MeCard--container {
+        margin-top: 10vh;
+    }
+    .Home--content .AboutCard--container {
+        margin-left: 0;
+        margin-top: 80px;
+        width: 100%;
+        max-width: none;
+    }
+    .Home--content .AboutCard--container button {
+        width: 100%;
+    }
+    .Home--content {
+        width: auto;
+        display: block;
+        padding: 16px;
+    }
+    .Home--container {
+        height: auto;
+        display: block;
+        align-items: normal;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Home--content .AboutCard--container {
+        padding: 24px;
+    }
+}

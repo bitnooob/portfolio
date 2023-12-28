@@ -1,0 +1,61 @@
+.ProjectCell--container {
+    width: 100%;
+}
+
+.ProjectCell--content {
+    display: flex;
+    align-items: center;
+}
+
+.ProjectCell--left {
+    width: 700px; /*60%*/
+}
+
+.ProjectCell--left img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.ProjectCell--right {
+    width: 100%;
+    margin-left: 48px;
+}
+
+.ProjectCell--date {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    color: var(--gray-light);
+}
+
+.ProjectCell--right h2 {
+    margin-top: 16px;
+    width: max-content;
+}
+
+.ProjectCell--right--texts {
+    margin-top: 16px;
+}
+
+.ProjectCell--right--texts p {
+    margin-top: 8px;
+}
+
+@media screen and (max-width: 1100px) {
+    .ProjectCell--content {
+        display: flex;
+        flex-flow: wrap;
+        align-items: normal;
+    }
+    .ProjectCell--right {
+        order: 1;
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+    .ProjectCell--left {
+        order: 2;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}

@@ -1,0 +1,11 @@
+.Tag--container {
+    width: max-content;
+    padding: 10px 16px;
+    box-sizing: border-box;
+    border-radius: 100px;
+    background: #222C53;
+
+    color: var(--accent);
+    font-size: 16px;
+    font-weight: 500;
+}

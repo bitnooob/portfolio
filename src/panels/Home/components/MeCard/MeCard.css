@@ -1,0 +1,42 @@
+.MeCard--container {
+    width: max-content;
+    margin: 0 auto;
+}
+
+.MeCard--memoji {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.MeCard--memoji img {
+    width: 100%;
+    height: 100%;
+}
+
+.MeCard--description {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.MeCard--description h1 {
+    margin-bottom: 4px;
+}
+
+.MeCard--buttons {
+    width: max-content;
+    margin: 42px auto 0 auto;
+    display: flex;
+}
+
+.MeCard--buttons a {
+    margin-left: 16px;
+}
+
+.MeCard--buttons a:first-child {
+    margin-left: 0;
+}
+
+/*.MeCard--buttons button {
+    margin-left: 24px;
+}*/

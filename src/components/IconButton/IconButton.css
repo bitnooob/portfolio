@@ -1,0 +1,11 @@
+.IconButton--container {
+    border: none;
+    border-radius: 1000px;
+    padding: 18px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.IconButton--container img {
+    display: block;
+}

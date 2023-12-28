@@ -1,0 +1,29 @@
+.AboutCard--container {
+    width: 100%;
+    max-width: 564px;
+    padding: 32px;
+    box-sizing: border-box;
+    background: var(--gray);
+    border-radius: 50px;
+}
+
+.AboutCard--content p {
+    line-height: 34px;
+    margin-top: 16px;
+}
+
+.AboutCard--content button {
+    margin-top: 24px;
+}
+
+.AboutCard--skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+}
+
+.AboutCard--skills .Tag {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}

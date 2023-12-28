@@ -1,0 +1,21 @@
+.Button--container {
+    height: 75px;
+    border: none;
+    border-radius: 1000px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    cursor: pointer;
+    background: var(--accent);
+    color: #fff;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Button {
+    transition: opacity .3s;
+}
+.Button:hover {
+    opacity: .8;
+}

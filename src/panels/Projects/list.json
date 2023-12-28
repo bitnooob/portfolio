@@ -1,0 +1,86 @@
+[
+    {
+        "id": "dubbify",
+        "date": "c 2023",
+        "title": "Dubbify",
+        "description": "Telegram-бот для перевода видео на другие языки с сохранением оригинального голоса с помощью технологий машинного обучения.",
+        "auditory": "10К+ пользователей",
+        "stack": "NodeJS, Fastify, MySQL, Python, Flask",
+        "link": "https://t.me/dubbify_bot"
+    },
+    {
+        "id": "reepl",
+        "date": "c 2023",
+        "title": "Reepl AI",
+        "description": "Приложение и Telegram-бот для изменения голоса с помощью технологий машинного обучения.",
+        "auditory": "200К+ пользователей",
+        "stack": "React, NodeJS, Fastify, MySQL, Python, Flask",
+        "link": "https://vk.com/reeplapp"
+    },
+    {
+        "id": "teeth",
+        "date": "с 2021",
+        "title": "teeth",
+        "description": "Приложение для правильной чистки зубов.",
+        "auditory": "50К+ пользователей",
+        "stack": "React, PHP, MySQL",
+        "link": "https://vk.com/teeth"
+    },
+    {
+        "id": "notes",
+        "date": "с 2021",
+        "title": "Записки",
+        "description": "Приложение для создания одноразовых записок.",
+        "auditory": "190К+ пользователей",
+        "stack": "React, PHP, MySQL",
+        "link": "https://vk.com/notesapp"
+    },
+    {
+        "id": "bypassport",
+        "date": "2022-2023",
+        "title": "По Паспорту",
+        "description": "Приложения для путешественников.",
+        "auditory": "9К пользователей",
+        "stack": "React, NodeJS, Fastify, MySQL, WebGL"
+    },
+    {
+        "id": "bloggers",
+        "date": "2022-2023",
+        "title": "Блогеры",
+        "description": "Развлекательное приложение симулятор.",
+        "auditory": "52К пользователей",
+        "stack": "React, NodeJS, Fastify, MySQL"
+    },
+    {
+        "id": "reading",
+        "date": "2022",
+        "title": "Читаю",
+        "description": "Приложение для читателей из Санкт-Петербурга.",
+        "auditory": "1К пользователей",
+        "stack": "React, NodeJS, Fastify MySQL"
+    },
+    {
+        "id": "peterday",
+        "date": "2022",
+        "title": "Повседневный Питер",
+        "description": "Приложение для жителей Санкт-Петербурга.",
+        "auditory": "3К пользователей",
+        "stack": "React, PHP, MySQL"
+    },
+    {
+        "id": "moneybox",
+        "date": "2021-2023",
+        "title": "Копилка",
+        "description": "Приложение для накоплений.",
+        "auditory": "22К пользователей",
+        "stack": "React, PHP, MySQL"
+    },
+    {
+        "id": "sleep",
+        "date": "2021-2022",
+        "title": "Идеальный сон",
+        "description": "Приложение для расчета фаз сна.",
+        "auditory": "46К пользователей",
+        "stack": "React, PHP, MySQL"
+    }
+]

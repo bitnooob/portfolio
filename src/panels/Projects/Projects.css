@@ -1,0 +1,20 @@
+.Projects--panel {
+    width: 100%;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.Projects--list {
+    margin-top: 64px;
+}
+
+.Projects--list .ProjectCell--container {
+    margin-bottom: 32px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .Projects--panel {
+        padding: 16px;
+    }
+}
